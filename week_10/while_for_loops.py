@@ -113,13 +113,13 @@ horror_movie =['exprcist','the shining','conjuring','the ring']
 #otherwise print the shining was not found and print
 #ouy yhr oyhrt names using a loop 
 
- for movies in horror_movie:
+for movies in horror_movie:
     if movies == 'the shining':
-       print("the shining")
-        print(movies)
-   else:
         print("the shining")
-         print(movies)
+        print(movies)
+else:
+        print("the shining")
+        print(movies)
 
 
 #2 create a list of your favorite horror movie chracters 
@@ -140,3 +140,10 @@ for charcters in horror_charcters:
 # loop through the list of names
 # if the name is for example "swamp thing", replace it with another name
 
+monster=['other mother','killer klowns','chucky','dracula','myers','swamp monster']
+for horrormonster in monster:
+    if monster== 'swamp monster':
+        monster[0]="frankenstien"
+        print(monster)
+    else:
+        print(horrormonster)
